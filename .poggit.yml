@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/JeroGamingYT-pm-pl/NoCraft
+build-by-default: true
+branches:
+- main
+projects:
+  NoCraft:
+    path: ""
+    icon: icon.png
+...
