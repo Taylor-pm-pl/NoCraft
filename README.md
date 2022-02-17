@@ -1,6 +1,6 @@
 # NoCraft
 
-<a href="https://poggit.pmmp.io/p/CustomBow"><img src="https://poggit.pmmp.io/shield.dl.total/CustomBow"></a>
+<a href="https://poggit.pmmp.io/p/NoCraft"><img src="https://poggit.pmmp.io/shield.dl.total/NoCraft"></a>
 [![Discord](https://img.shields.io/discord/869130615851745281.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YYquESwF)
 
 **NOTICE:** This plugin branch is for PocketMine-MP 4.
