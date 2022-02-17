@@ -1,0 +1,5 @@
+name: NoCraft
+version: 0.0.1
+api: 4.0.0
+main: YTBJero\NoCraft\Main
+author: YTBJero

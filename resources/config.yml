@@ -1,0 +1,14 @@
+# Set it to true to send a message to the player!
+message: true 
+# Message when no crafting!
+cancel-msg: "You can't craft this item"
+
+# Set to true to no crafting all items!
+all: false
+
+# Items that cannot be crafted
+# Structure "ID:Meta": status
+# If Status is true then no craft for the item is enabled
+nocraft:
+    "278:0": true
+    "310:0": false
