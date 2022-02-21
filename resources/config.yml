@@ -7,8 +7,8 @@ cancel-msg: "You can't craft this item"
 all: false
 
 # Items that cannot be crafted
-# Structure "ID:Meta": status
+# Structure "Name": status
 # If Status is true then no craft for the item is enabled
 nocraft:
-    "278:0": true
-    "310:0": false
+    "stick": true
+    "diamond_block": false
