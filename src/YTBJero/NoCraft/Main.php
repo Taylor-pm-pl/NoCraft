@@ -30,7 +30,6 @@ class Main extends PluginBase implements Listener{
         }
 		foreach ($event->getOutputs() as $item){
 			foreach($this->getConfig()->get("nocraft") as $name => $status){
-			if($this->getConfig()->get("all") === true) return;
 			if($status === false) return;
 				if($item->equals(StringToItemParser::getInstance()->parse($name), true)){
 					$event->cancel();
