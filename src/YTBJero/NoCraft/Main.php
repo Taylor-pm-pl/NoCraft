@@ -29,8 +29,7 @@ class Main extends PluginBase implements Listener{
 			$player->sendMessage($config->get("cancel-msg"));
         }
 		foreach ($event->getOutputs() as $item){
-			foreach($this->getConfig()->get("nocraft") as $name => $status){
-			if($status === false) return;
+			foreach($this->getConfig()->get("nocraft") as $name){
 				if($item->equals(StringToItemParser::getInstance()->parse($name), true)){
 					$event->cancel();
 					$player->sendMessage($config->get("cancel-msg"));
